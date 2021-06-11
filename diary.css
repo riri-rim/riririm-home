@@ -1,0 +1,199 @@
+.box {
+    background-color: white;
+    flex: 3;
+    border-radius: 10px;
+    border: 1px solid #cdcdcd;
+}
+  
+.content-title {
+    padding: 6px 0;
+    display: flex;
+  }
+  
+.content-title-name {
+    flex: 1;
+  }
+  
+.content-title-url {
+    flex: 1;
+  }
+  
+.profile-title {
+    text-align: center;
+    padding: 6px;
+  }
+  
+.color-red {
+    color: red;
+  }
+.profile-box {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    align-items: stretch;
+ }
+  
+.picture {
+     flex: none;
+ }
+.picimg {
+      width: 90%;
+      height: 90%;
+      align-self: center;
+  }
+.text {
+      flex: 1;
+      font-family: 'East Sea Dokdo', cursive;
+  }
+.update-box{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+  }
+.menu-container > div > a{
+      border: 0.5px solid rgb(0, 0, 0);
+      background-color: rgb(26, 135, 179);
+      border-bottom-right-radius: 5px;
+      border-top-right-radius: 5px;
+      margin-bottom: 10px;
+      color: white;
+  }
+.menu-container div{
+      margin-top: 15px;
+      height: 5%;
+  }
+  
+.home:hover{
+      background-color:rgb(164, 93, 179) ;
+  }
+.diary:hover{
+      background-color:rgb(164, 93, 179) ;
+  }
+.tag:hover{
+      background-color:rgb(164, 93, 179) ;
+  }
+.introduce{
+      flex: none;
+      margin-bottom: 10px;
+      margin-left: 10px;
+  } 
+.dropdown-title{
+    border: 1px solid black;
+    height: 20px;
+    display: flex;
+  }
+.dropdown{
+      flex: 1;
+      margin-left: 10px;
+  }
+.dropdown-content{
+      display: none;
+      width: 100%;
+  }
+  .drop:hover > .dropdown-content{
+      display: inline-block;
+      position: absolute;
+      top: 0;
+      left: 0;
+  }
+  .dropdown-content > a{
+      display: inline-block;
+      border: 1px solid black;
+      
+      background-color: rgb(255, 255, 255);
+      padding: auto;
+  }
+  .dropdown-content > a:hover{
+      background-color: gray;
+  }
+  .triangle-down{
+      width: 0;
+      height: 0;
+      border-left: 4.5px solid transparent; 
+      border-right:  4.5px solid transparent;
+      border-top: 5px solid #838383;
+      margin-top: 8px;
+      margin-right: 10px;
+  }
+  .d{
+      border: 0.8px solid rgb(214, 214, 214);
+      margin: 15px;
+      width: 400px;
+  }
+  
+  .f{
+      text-align: center;
+      margin-bottom: 20px;
+      margin-top: 20px;
+  }
+  .e{
+      color: hotpink;
+      margin-top: 15px;
+      margin-left: 15px;
+  }
+  .secret{
+      background-color: rgb(255, 255, 255);
+      width: 150px;
+      height: 50px;
+      padding: 10px;
+      margin: auto;
+      margin-bottom: 20px;
+      text-align: center;
+      color: white;
+      border-style: none;
+      margin-left: 30%;
+  }
+  .secret:hover {
+      background-color: rgb(0, 65, 187);
+      color: white;
+  }
+  .date{
+      flex-wrap: wraps;
+  }
+  .drop{
+    position: relative;
+}
+.monthly{
+    display: flex;
+    align-items:center;
+    border: 0.8px solid rgb(214, 214, 214);
+    margin: 15px;
+    position: absolute;
+    width: 90%;
+    height: 3rem;
+    background-color: white;
+}
+.diarycontent{
+    margin-top: 80px;
+    top: 15px;
+    left: 45px;
+    right: 15px;
+    bottom: 15px;
+    position: absolute;
+    overflow: auto;
+}
+.today{
+    flex: 0.2 ;
+    text-align: center;
+}
+.datelist{
+    flex: 1;
+    flex-wrap: wrap;
+    display: flex;
+}
+.date{
+    
+    color: black;
+    cursor: pointer; 
+    margin-left: 3px; 
+}
+.blued{
+    color: cornflowerblue;
+}
+.redd{
+    color: indianred;
+}
+#secbox {
+    display:none;
+}

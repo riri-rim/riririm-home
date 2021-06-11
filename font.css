@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+@font-face {
+    font-family: 'Cafe24Ssurround';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Cafe24Simplehae';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Simplehae.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Cafe24Dangdanghae';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.2/Cafe24Dangdanghae.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Cafe24Oneprettynight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Oneprettynight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SLEIGothicTTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2104@1.0/SLEIGothicTTF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.blue1 {
+    font-family: 'East Sea Dokdo', cursive;
+}
+.blue2{
+    font-family: 'East Sea Dokdo', cursive;
+}
+.today{
+    font-family: 'Cafe24Ssurround';
+}
+.datelist{
+    font-family: 'Cafe24Ssurround';
+}
+.e{
+    font-family: 'Cafe24Ssurround';
+}
+.introduce{
+    font-family: 'Cafe24Dangdanghae';
+}
+.text{
+    font-family: 'Cafe24Oneprettynight';
+}
+.w{
+    font-family: 'Cafe24Ssurround';
+    color: rgb(255, 89, 89);
+}
+.q{
+    font-style: italic;
+    font-family: 'SLEIGothicTTF';
+}
+.lyr{
+    font-style: italic;
+    font-family: 'SLEIGothicTTF';
+}

@@ -1,0 +1,165 @@
+.box {
+    background-color: white;
+    flex: 3;
+    border-radius: 10px;
+    border: 1px solid #cdcdcd;
+}
+  
+.content-title {
+    padding: 6px 0;
+    display: flex;
+  }
+  
+.content-title-name {
+    flex: 1;
+  }
+  
+.content-title-url {
+    flex: 1;
+  }
+  
+.profile-title {
+    text-align: center;
+    padding: 6px;
+  }
+  
+.color-red {
+    color: red;
+  }
+.profile-box {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    align-items: stretch;
+ }
+  
+.picture {
+     flex: none;
+ }
+.picimg {
+      width: 90%;
+      height: 90%;
+      align-self: center;
+  }
+.text {
+      flex: 1;
+      font-family: 'East Sea Dokdo', cursive;
+  }
+.update-box{
+      display: flex;
+      flex-direction: column;
+      overflow-y: scroll;
+      overflow-x: hidden;
+  }
+.menu-container > div > a{
+      border: 0.5px solid rgb(0, 0, 0);
+      background-color: rgb(26, 135, 179);
+      border-bottom-right-radius: 5px;
+      border-top-right-radius: 5px;
+      margin-bottom: 10px;
+      color: white;
+  }
+.menu-container div{
+      margin-top: 15px;
+      height: 5%;
+  }
+  
+.home:hover{
+      background-color:rgb(164, 93, 179) ;
+  }
+.diary:hover{
+      background-color:rgb(164, 93, 179) ;
+  }
+.tag:hover{
+      background-color:rgb(164, 93, 179) ;
+  }
+
+.introduce{
+      flex: none;
+      margin-bottom: 10px;
+      margin-left: 10px;
+  } 
+.dropdown-title{
+  border: 1px solid black;
+  height: 20px;
+  display: flex;
+
+}
+.dropdown{
+      flex: 1;
+      margin-left: 10px;
+  }
+.dropdown-content{
+      display: none;
+      width: 100%;
+  }
+  .drop:hover > .dropdown-content{
+      display: inline-block;
+      position: absolute;
+      top: 0;
+      left: 0;
+  }
+  .dropdown-content > a{
+      display: inline-block;
+      border: 1px solid black;
+      
+      background-color: rgb(255, 255, 255);
+      padding: auto;
+  }
+  .dropdown-content > a:hover{
+      background-color: gray;
+  }
+  .triangle-down{
+      width: 0;
+      height: 0;
+      border-left: 4.5px solid transparent; 
+      border-right:  4.5px solid transparent;
+      border-top: 5px solid #838383;
+      margin-top: 8px;
+      margin-right: 10px;
+  }
+.drop{
+  position: relative;
+}
+div>span{
+    margin: 5px;
+}
+.musictitle{
+    margin-left: 15px;
+    background-color: rgb(235, 235, 235);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+.lyrics{
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+    background-image: url(./image/sky.jpg);
+    background-size: cover;
+    margin-left: 20px;
+}
+.lyrics>img{
+    width: 30%;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    flex: 0 0 1;
+}
+.lyr{
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 18px;
+    background-color: white;
+    height: 110%;
+}
+.lyr>div{
+    flex: auto;
+    width: 100%;
+    margin-left: 80px;
+    height: 70%;
+}
